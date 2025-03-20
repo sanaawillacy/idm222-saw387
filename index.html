@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dolphin Cove</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header with Navigation -->
+    <header class="header">
+        <div class="logo">
+            <img src="https://dashboard.codeparrot.ai/api/image/Z9uop5IdzXb5OlkE/rectangl.png" alt="Dolphin Cove Logo">
+        </div>
+        <nav class="nav">
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul id="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about_us.html">About</a></li>
+                <li><a href="locations.html">Locations</a></li>
+                <li><a href="encounters.html">Encounters</a></li>
+                <li><a href="FAQ.html">FAQ</a></li>
+                <li><a href="book_now.html" class="btn">Book Now</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="hero-section">
+        <div class="hero-content">
+            <h1 class="hero-title">Bibendum et sit aliquam!</h1>
+            <p class="hero-description">orem ipsum dolor sit amet, consectetur adipiscing. Aliquam scelerisque posuere vivamus egestas porttitor. Hendrerit vitae at nulla varius proin ipsum. Purus augue in morbi.</p>
+            <button class="discover-btn">Discover More</button>
+        </div>
+        <div class="overlay"></div>
+    </div>
+
+    <!-- Booking Form -->
+    <div class="booking-form">
+        <div class="form-group">
+            <label>Location</label>
+            <input type="text" placeholder="Select city">
+        </div>
+        <div class="form-group">
+            <label>Date</label>
+            <input type="date">
+        </div>
+        <div class="form-group">
+            <label>Time</label>
+            <input type="time">
+        </div>
+        <button class="search-btn">Search</button>
+    </div>
+
+    <!-- Features Section -->
+    <section class="features">
+        <h2>Discover Dolphin Cove</h2>
+        <div class="feature-cards">
+            <div class="feature-card">
+                <img src="https://dashboard.codeparrot.ai/api/image/Z9uop5IdzXb5OlkE/rectangl.png" alt="Encounters">
+                <h3>Encounters</h3>
+                <p>Get up close</p>
+            </div>
+            <div class="feature-card">
+                <img src="https://dashboard.codeparrot.ai/api/image/Z9uop5IdzXb5OlkE/rectangl.png" alt="Locations">
+                <h3>Locations</h3>
+                <p>Where to find us</p>
+            </div>
+            <div class="feature-card">
+                <img src="https://dashboard.codeparrot.ai/api/image/Z9uop5IdzXb5OlkE/rectangl.png" alt="About Us">
+                <h3>About Us</h3>
+                <p>History</p>
+            </div>
+            <div class="feature-card">
+                <img src="https://dashboard.codeparrot.ai/api/image/Z9uop5IdzXb5OlkE/rectangl.png" alt="FAQ">
+                <h3>FAQ</h3>
+                <p>Get your answers</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <h2>Testimonials</h2>
+        <p class="testimonial-subtitle">A high-performing web solution to ensure success for anyone</p>
+        <div class="testimonial-cards">
+            <div class="testimonial-card">
+                <div class="rating">4.8</div>
+                <p>"Wow, I just love being in the life. It was amazing experience and I would love to come back again!"</p>
+            </div>
+            <div class="testimonial-card">
+                <div class="rating">4.9</div>
+                <p>"Wow, I just love being in the life. It was amazing experience and I would love to come back again!"</p>
+            </div>
+            <div class="testimonial-card">
+                <div class="rating">4.7</div>
+                <p>"Wow, I just love being in the life. It was amazing experience and I would love to come back again!"</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Logo</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <div class="social-icons">
+                    <a href="#" class="social-icon">F</a>
+                    <a href="#" class="social-icon">T</a>
+                    <a href="#" class="social-icon">I</a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>About</h3>
+                <ul>
+                    <li><a href="#">How it works</a></li>
+                    <li><a href="#">Featured</a></li>
+                    <li><a href="#">Partnership</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Community</h3>
+                <ul>
+                    <li><a href="#">Events</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Podcast</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Socials</h3>
+                <ul>
+                    <li><a href="#">Discord</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Twitter</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>©2024 Dolphin Cove Widget</p>
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms & Conditions</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const hamburger = document.getElementById('hamburger');
+        const navMenu = document.getElementById('nav-menu');
+
+        hamburger.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
